@@ -199,9 +199,7 @@ it ++ (Connection ["German", "","Black"]);
 it ++ (Connection ["Dane", "Cat",""]);
 it ++ (Connection ["Brit", "Fox",""]);
 
-val test1 = (sort compare (solve it) = sort compare ([["Dane","Cat","Yellow"],
-													 ["Brit","Fox","Pink"],
-													 ["German","Dog","Black"]]));
+val test1 = (sort compare (solve it) = sort compare ([["Dane","Cat","Yellow"],["Brit","Fox","Pink"],["German","Dog","Black"]]));
 
 val _ = print("\n########## TestD ##########\n");
 
@@ -239,9 +237,7 @@ it +! (Connection ["Spanish", "Red"]);
 it ++ (Connection ["Norwegian", "Blue"]);
 it ++ (Connection ["", "White"]);
 it ++ (Connection ["Italian", ""]);
-val test1 = (sort compare (solve it) = sort compare ([["Italian","Red"],
-													 ["Norwegian","Blue"],
-													 ["Spanish","White"]]));
+val test1 = (sort compare (solve it) = sort compare ([["Italian","Red"],["Norwegian","Blue"],["Spanish","White"]]));
 
 val _ = print("\n########## TestF ##########\n");
 
@@ -256,6 +252,4 @@ it ++ (Connection ["", "","Fish",""]);
 it +! (Connection ["", "Red","Cats",""]);
 it +! (Connection ["German", "Green","",""]);
 it ++ (Connection ["", "Blue","","Football"]);
-val test1 = (sort compare (solve it) = sort compare ([["German","Red","Dogs","Basketball"],
-													 ["Australian","Green","Cats","Soccer"],
-													 ["Brazilian","Blue","Fish","Football"]]));
+val test1 = (sort compare (solve it) = sort compare ([["German","Red","Dogs","Basketball"],["Australian","Green","Cats","Soccer"],["Brazilian","Blue","Fish","Football"]]));
